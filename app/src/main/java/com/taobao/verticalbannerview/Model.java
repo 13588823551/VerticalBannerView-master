@@ -1,0 +1,19 @@
+package com.taobao.verticalbannerview;
+
+/**
+ * Description:
+ * <p/>
+ * Created by rowandjj(chuyi)<br/>
+ * Date: 16/1/7<br/>
+ * Time: 下午2:06<br/>
+ */
+public class Model {
+    public String title;
+    public String url;
+    public String tag;
+
+    public Model(String title, String url) {
+        this.title = title;
+        this.url = url;
+    }
+}
